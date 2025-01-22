@@ -51,24 +51,24 @@ const About = () => {
    
     </div>
     <div class="flex flex-wrap -m-4">
-      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div class="h-full p-6 rounded-lg border-2 border-gray-300 hover:shadow-lg  hover:border-indigo-500 flex flex-col relative overflow-hidden">
-          <h1 class="text-3xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Residential</h1>
-          <p class="flex items-center text-gray-600 mb-2">
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full text-white">
+        <div class="h-full p-6 rounded-lg border-2 bg-yellow-800 border-gray-300 hover:shadow-lg  hover:border-indigo-500 flex flex-col relative overflow-hidden">
+          <h1 class="text-3xl text-white pb-4 mb-4 border-b border-gray-200 leading-none">Residential</h1>
+          <p class="flex items-center text-white mb-2">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-600 text-white rounded-full flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Homes
           </p>
-          <p class="flex items-center text-gray-600 mb-2">
+          <p class="flex items-center text-white mb-2">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-600 text-white rounded-full flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Apartments
           </p>
-          <p class="flex items-center text-gray-600 mb-6">
+          <p class="flex items-center text-white mb-6">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-600 text-white rounded-full flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
@@ -79,25 +79,25 @@ const About = () => {
         </div>
       </div>
       <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div class="h-full p-6 rounded-lg border-2 border-gray-300 hover:shadow-lg  hover:border-indigo-500 flex flex-col relative overflow-hidden">
-          <h1 class="text-3xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
+        <div class="h-full p-6 rounded-lg border-2 bg-sky-900 border-gray-300 hover:shadow-lg  hover:border-indigo-500 flex flex-col relative overflow-hidden">
+          <h1 class="text-3xl text-white pb-4 mb-4 border-b border-gray-200 leading-none">
             <span>Commercial</span>
           </h1>
-          <p class="flex items-center text-gray-600 mb-2">
+          <p class="flex items-center text-white mb-2">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-600 text-white rounded-full flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Offices
           </p>
-          <p class="flex items-center text-gray-600 mb-2">
+          <p class="flex items-center text-white mb-2">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-600 text-white rounded-full flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Retail Spaces
           </p>
-          <p class="flex items-center text-gray-600 mb-2">
+          <p class="flex items-center text-white mb-2">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-600 text-white rounded-full flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
@@ -106,18 +106,18 @@ const About = () => {
           </p>   </div>
       </div>
       <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div class="h-full p-6 rounded-lg border-2 border-gray-300 hover:shadow-lg  hover:border-indigo-500 flex flex-col relative overflow-hidden">
-          <h1 class="text-3xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
+        <div class="h-full p-6 rounded-lg border-2 bg-yellow-800 border-gray-300 hover:shadow-lg  hover:border-indigo-500 flex flex-col relative overflow-hidden">
+          <h1 class="text-3xl text-white pb-4 mb-4 border-b border-gray-200 leading-none">
             <span>Industrial</span>
           </h1>
-          <p class="flex items-center text-gray-600 mb-2">
+          <p class="flex items-center text-white mb-2">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-600 text-white rounded-full flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Factories
           </p>
-          <p class="flex items-center text-gray-600 mb-2">
+          <p class="flex items-center text-white mb-2">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-600 text-white rounded-full flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
@@ -127,32 +127,32 @@ const About = () => {
    </div>
       </div>
       <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div class="h-full p-6 rounded-lg border-2 border-gray-300 hover:shadow-lg  hover:border-indigo-500 flex flex-col relative overflow-hidden">
-          <h1 class="text-3xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
+        <div class="h-full p-6 rounded-lg border-2 bg-sky-900 border-gray-300 hover:shadow-lg  hover:border-indigo-500 flex flex-col relative overflow-hidden">
+          <h1 class="text-3xl text-white pb-4 mb-4 border-b border-gray-200 leading-none">
             <span>Infrastructure</span>
           </h1>
-          <p class="flex items-center text-gray-600 mb-2">
+          <p class="flex items-center text-white mb-2">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-600 text-white rounded-full flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Roads
           </p>
-          <p class="flex items-center text-gray-600 mb-2">
+          <p class="flex items-center text-white mb-2">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-600 text-white rounded-full flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Bridges
           </p>
-          <p class="flex items-center text-gray-600 mb-2">
+          <p class="flex items-center text-white mb-2">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-600 text-white rounded-full flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Airports
           </p>
-          <p class="flex items-center text-gray-600 mb-2">
+          <p class="flex items-center text-white mb-2">
             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-600 text-white rounded-full flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>

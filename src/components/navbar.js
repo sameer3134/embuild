@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="relative py-4 flex justify-between items-center bg-gray-100 shadow-lg">
         <a class="flex title-font font-medium items-center text-gray-900  md:mb-0" href='/'>
             <img src={embuild_logo} alt='logo' className='w-10 h-10 ml-4' />
-            <span class="ml-3 md:text-lg text-[12px] font-serif font-semibold">EMBUILD TRADING SOLUTIONS</span>
+            <span class="ml-3 md:text-lg text-[12px] font-serif font-semibold text-yellow-800">EMBUILD TRADING SOLUTIONS</span>
         </a>
         <div className="lg:hidden">
             <button

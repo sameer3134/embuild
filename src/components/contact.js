@@ -3,8 +3,12 @@ import React from 'react'
 const Contact = () => {
   return (
     <div>
+       <div class="container  mx-auto">
+    <div class="flex flex-col text-center w-full mb-6">
+      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900 bg-gradient-to-t from-orange-100 to-sky-400 py-8">CONTACT US</h1>
+    </div></div>
         <section class="text-gray-600 body-font relative">
-  <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+  <div class="container px-5 py-6 mx-auto flex sm:flex-nowrap flex-wrap">
     <div class="lg:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
     <iframe
         width="100%"

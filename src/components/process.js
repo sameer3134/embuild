@@ -4,18 +4,20 @@ import ic1 from "../assets/ic-1.png"
 import ic2 from "../assets/ic-2.png"
 import ic3 from "../assets/ic-3.png"
 import ic4 from "../assets/ic-4.png"
+import processtemplate from "../assets/process_template.png"
 
 const Process = () => {
   return (
-    <div>
+    <div className='bg-gradient-to-t from-orange-100 to-sky-400'>
         <div class="container px-5 pt-6 mx-auto">
     <div class="flex flex-col text-center w-full mb-6">
-      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Our Process</h1>
+      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">OUR PROCESS</h1>
     </div></div>
         <section class="text-gray-600 body-font items-center mx-4">
-    <div class="container px-5 py-10 mx-auto flex flex-wrap">
+    <div class="container px-5 py-4 mx-auto flex flex-wrap">
       <div class="flex flex-wrap w-full">
-        <div class="lg:w-5/10 md:w-1/2 md:pr-10 md:py-6">
+      <img class="lg:w-1/3 object-cover object-center rounded-lg md:mt-0 mt-12 animate-slide-in-right" src={processtemplate} alt="step"/>
+        <div class="lg:w-1/3 md:pl-16 md:py-6 pl-8 pt-6 md:pt-4">
           <div class="flex relative pb-12">
             <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
               <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -68,7 +70,7 @@ const Process = () => {
             </div>
           </div>
         </div>
-        <img class="lg:w-5/10 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12 animate-slide-in-right" src={process} alt="step"/>
+        <img class="lg:w-1/3 object-cover object-center rounded-lg md:mt-0 mt-12 animate-slide-in-right" src={process} alt="step"/>
       </div>
     </div>
   </section></div>

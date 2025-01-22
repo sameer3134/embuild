@@ -11,13 +11,6 @@ function App() {
   return (
     <div
       className="App"
-      // style={{
-      //   backgroundImage: `url(${bg})`,
-      //   backgroundSize: "cover", // Ensure the image covers the entire area
-      //   backgroundRepeat: "no-repeat", // Prevent the image from repeating
-      //   backgroundPosition: "center", // Center the image
-      //   minHeight: "100vh", // Ensure it covers the viewport height
-      // }}
     >
       <Navbar />
       <Router>
