@@ -33,7 +33,7 @@ const About = () => {
                 About Us
               </h1>
               <p className="leading-relaxed font-sans text-xl font-semibold">
-                "Welcome to Embuild Trading Solutions, a private limited company specializing in the home decor and interior designing items, trading, construction plans, repairing & maintainence.""
+                "Welcome to Embuild Trading Solutions, a private limited company specializing in the home decor and interior designing items, trading, construction plans, repairing & maintainence."
               </p>
             </div>
           </div>
